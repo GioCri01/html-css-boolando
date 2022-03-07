@@ -1,0 +1,67 @@
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*general*/
+
+
+body .main-box{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;}
+
+    
+  .container-box{
+    height: 450px;
+    width: 300px;
+    background-color: red;
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+  } 
+
+  img{
+      
+      height: 450px;
+      width: 300px;}
+      
+      
+  
+
+  .heart{
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: white;
+      padding: 5px;
+  }
+
+  .discount{
+      position: absolute;
+      bottom: 10px;
+      left: 0;
+      background-color: rgb(230, 7, 7);
+      padding: 5px;
+  }
+
+  .info{
+      position: absolute;
+      bottom: 10px;
+      left: 50px;
+      background-color: wheat;
+      padding: 5px;
+  } 
+
+    .container-box:hover img {
+        cursor: pointer;
+        display: none;
+        
+        
+        
+    }
+
+    
