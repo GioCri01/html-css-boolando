@@ -12,7 +12,8 @@ body .main-box{
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    background-color: black;}
+    margin-bottom: 10px;
+    }
 
     
   .container-box{
@@ -28,6 +29,19 @@ body .main-box{
       
       height: 450px;
       width: 300px;}
+
+      img.front{
+         
+      }
+
+      img.back{
+          position: absolute;
+          top: 0;
+          left: 0;
+          
+        display: none;
+      }
+
       
       
   
@@ -56,12 +70,12 @@ body .main-box{
       padding: 5px;
   } 
 
-    .container-box:hover img {
-        cursor: pointer;
+    .container-box :hover img.front{
         display: none;
-        
-        
-        
+        cursor: pointer;
     }
 
-    
+    .container-box:hover img.back{
+        display: block;
+        cursor: pointer;
+    }
